@@ -7,11 +7,12 @@ YouTube frontend for Leanback, TV and XL.
 
 ## setup
 - **make sure you have [imagemagick](https://imagemagick.org/) and [ffmpeg](https://ffmpeg.org/) in your PATH.**
+- **Flash is needed for certain things: https://archive.org/details/flashplayer_old (Flash 32) or https://gitlab.com/cleanflash/installer/-/releases (Clean Flash 34)**
 
 ### when installing imagemagick, make sure you also install its legacy tools (convert)! 
 
 - install node.js
-- open a terminal (windows powershell/cmd) in the directory you cloned yt2009 to, then:
+- open a terminal (windows powershell/cmd) in the directory you cloned the instance to, then:
 - install required dependencies with: `npm install`
 - create a config file by launching and following: `node yt2009setup.js`
 - run to set and download remaining assets `node post_config_setup.js`
@@ -19,6 +20,8 @@ YouTube frontend for Leanback, TV and XL.
 - navigate to your IP:port you have set while configuring to see a 2009 homepage.
 
 afterwards, you can just `cd back` and `node backend.js` to start. no need to re-set it up each time.
+
+Done!
 
 ---
 
