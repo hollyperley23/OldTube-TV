@@ -1,7 +1,7 @@
 # OldTube TV
 YouTube frontend for Leanback, TV and XL.
 
-<img src="doc-imgs/ie6-ss.png" width="400">
+<img src="imgs/festisite_youtube.png" width="300">
 
 ---
 
