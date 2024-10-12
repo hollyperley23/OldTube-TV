@@ -1,14 +1,11 @@
-# yt2009
-a fairly accurate 2009 youtube frontend.
+# OldTube TV
+YouTube frontend for Leanback, TV and XL.
 
 <img src="doc-imgs/ie6-ss.png" width="400">
-<img src="doc-imgs/ie6-ss2.png" width="400">
 
 ---
 
 ## setup
-### if you prefer using docker rather than installing directly, go [here](docker.md) for setup instructions instead
-
 - **make sure you have [imagemagick](https://imagemagick.org/) and [ffmpeg](https://ffmpeg.org/) in your PATH.**
 
 ### when installing imagemagick, make sure you also install its legacy tools (convert)! 
@@ -18,7 +15,7 @@ a fairly accurate 2009 youtube frontend.
 - install required dependencies with: `npm install`
 - create a config file by launching and following: `node yt2009setup.js`
 - run to set and download remaining assets `node post_config_setup.js`
-- run yt2009 by changing directory to `back` (`cd back`) and starting with `node backend.js`
+- run instance by changing directory to `back` (`cd back`) and starting with `node backend.js`
 - navigate to your IP:port you have set while configuring to see a 2009 homepage.
 
 afterwards, you can just `cd back` and `node backend.js` to start. no need to re-set it up each time.
@@ -26,10 +23,6 @@ afterwards, you can just `cd back` and `node backend.js` to start. no need to re
 ---
 
 ## optional after-setup steps
-
-### - **if experiencing issues with ytdl-core, apply this pull. https://github.com/fent/node-ytdl-core/pull/1217**
-
-**as of november 2023, it still isn't merged with the main repo.**
 
 - set up an android app by following [apk_setup.md](apk_setup.md)
 
@@ -58,6 +51,8 @@ to restore the original file. you can make a copy of your modified file and reap
 ## usage
 
 now that you're in, you can just use it as it is, but there is a bit more you can do.
+
+Type your instance and then any kind of TV, Leanback or XL by /xl, /tv, /leanback etc. Some of them (like Leanback Lite V3 or Google TV) needs Flash.
 
 navigate to **/flags** to change settings locally. here, for example, you can set up The Wayback Machine as a video data source. but look through, there is a lot more.
 
