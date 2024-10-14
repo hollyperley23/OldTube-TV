@@ -25,12 +25,6 @@ Done!
 
 ---
 
-## optional after-setup steps
-
-- set up an android app by following [apk_setup.md](apk_setup.md)
-
----
-
 ## updating
 
 if you want to update your frontend instance, use
@@ -57,10 +51,6 @@ now that you're in, you can just use it as it is, but there is a bit more you ca
 
 Type your instance and then any kind of TV, Leanback or XL by /xl, /tv, /leanback etc. Some of them (like Leanback Lite V3 or Google TV) needs Flash.
 
-navigate to **/flags** to change settings locally. here, for example, you can set up The Wayback Machine as a video data source. but look through, there is a lot more.
-
-feel free to nav to **/toggle_f** if you've set up flash players as described above to make the frontend work on older browsers, such as ie6.
-
 and just click around! you might find some useful features you didn't expect to work.
 
 ---
@@ -72,16 +62,3 @@ and just click around! you might find some useful features you didn't expect to 
 **they will be redownloaded when necessary.**
 
 ---
-
-## notes, docs
-
-over time some tools and documentation was written about yt2009. for an easy reference, those are listed below.
-
-- [apk_setup.md](apk_setup.md) - set early youtube android APKs to work with yt2009
-- [config_params.md](config_params.md) - a list of ALL available config options.
-- [docker.md](docker.md) - yt2009 setup with docker. also listed in the setup section. (thanks, breakgimme!)
-- [flash_additions.md](flash_additions.md) - some info on caption and annotations modules within the default 2009 flash player.
-- [flash_player_patch.md](flash_player_patch.md) - manual patch info for using flash players with yt2009.
-
-
-- [autoapk.js](autoapk.js) - a node cli file to automatically patch APKs supported by yt2009. your mileage may vary.
