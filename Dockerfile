@@ -21,8 +21,9 @@ USER node
 # you can instead set them when launching the container, this way you don't have to fork the repo or rebuild the container every time you want to change something
 # if someone has told you to do modify them here please ignore their advice and tell them they're wrong
 ENV YT2009_PORT=80 \
-    YT2009_ENV=dev \
+    YT2009_ENV=prod \
     YT2009_IP=yt2009-kcn6-tsl6-onrender-com.onrender.com \
+    YT2009_TOKENS="dysoniscool" \
     YT2009_SSL=false \
     YT2009_SSLPORT=443 \
     YT2009_SSLPATH=/yt2009/cert.crt \
