@@ -22,19 +22,19 @@ USER node
 # if someone has told you to do modify them here please ignore their advice and tell them they're wrong
 ENV YT2009_PORT=80 \
     YT2009_ENV=dev \
-    YT2009_IP=127.0.0.1 \
+    YT2009_IP=yt2009-kcn6-tsl6-onrender-com.onrender.com \
     YT2009_SSL=false \
     YT2009_SSLPORT=443 \
     YT2009_SSLPATH=/yt2009/cert.crt \
     YT2009_SSLKEY=/yt2009/cert.key \
-    YT2009_AUTO_MAINTAIN=false \
-    YT2009_MAINTAIN_MAX_SIZE=10 \
-    YT2009_MAINTAIN_MAX_CACHE_SIZE=15 \
+    YT2009_AUTO_MAINTAIN=true \
+    YT2009_MAINTAIN_MAX_SIZE=20 \
+    YT2009_MAINTAIN_MAX_CACHE_SIZE=50 \
     YT2009_FALLBACK=false \
     YT2009_DISABLEMASTER=false \
     YT2009_RATELIMIT=false \
-    YT2009_AC=false \
-    YT2009_GDATA_AUTH=false
+    YT2009_AC=true \
+    YT2009_GDATA_AUTH=true
 
 RUN npm install && \
     ln -s /data/tvdata.json back/tvdata.json && \
